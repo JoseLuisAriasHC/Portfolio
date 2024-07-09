@@ -393,6 +393,7 @@
       once: true,
     });
 
+    // Copiar email y hacer un tooltip dinámico
     const emailBtn = document.getElementById('EmailBtn');
     const tooltip = new bootstrap.Tooltip(emailBtn);
     let email = 'joseluisariashc@gmail.com';
@@ -402,7 +403,6 @@
       tooltip.show();
       setTimeout(() => {
         tooltip.setContent({ '.tooltip-inner': email });
-
       }, 2000);
     })
   </script>
