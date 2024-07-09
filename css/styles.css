@@ -8039,7 +8039,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(99, 82, 145, var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
@@ -10973,6 +10973,18 @@ section.resume-section .resume-section-content {
 
 .link-underline-opacity-0 {
   text-decoration: none;
+}
+
+.dev-icons {
+  display: flex;
+  align-items: center;
+}
+.dev-icons .list-inline-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-right: 1.5rem;
 }
 
 @media (min-width: 768px) {

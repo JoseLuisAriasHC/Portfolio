@@ -55,69 +55,35 @@
     <!-- About-->
     <section class="resume-section" id="about">
       <div class="resume-section-content">
-        <h1 class="mb-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <h1 class="mb-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
           <span class="infinite-opacity">¡Hola!</span> soy Jose Luis
           <span class="text-info">Arias</span>
         </h1>
-        <div class="subheading mb-5 mt-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+        <div class="subheading mb-5 mt-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
           Web Developer
         </div>
-        <p class="lead mb-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
-          Hola, soy Jose Luis Arias, un joven programador graduado con excelente calificación del grado
+        <p class="lead mb-5">
+          Un joven programador graduado con excelente calificación del grado
           Desarrollo de Aplicaciones Multiplataforma (DAM). Con esta solida formación mi obtjetivo es
           seguir progresando como un Web Developer, debido a mis fuertes conocimientos en PHP, JavaScript,
-          HTML y CSS y por mi gran dedicacion que no solo se centra en la estética y decoración, sino también
-          en el desarrollo y la resolución de errores dentro de las páginas web.
+          HTML y CSS y por mi gran dedicacion tanto en la estética y decoración, como en el desarrollo y la
+          resolución de errores dentro de las páginas web. Mateniendome simpre actualizado para tener las
+          mejores herramientas a la hora de desarrollar un proyecto y apoyandome en mi organizacion,
+          eficiencia y creatididad para darle ese toque unico y de calidad a mis trabajos.
         </p>
         <div class="social-icons">
           <a class="social-icon infinite-opacity-icon"
             href="https://www.linkedin.com/in/jose-luis-arias-hanco-66aab828a/" target="_blank" data-aos="flip-left"
-            data-aos-duration="500" data-aos-delay="2100" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+            data-aos-duration="500" data-aos-delay="1000" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
           <a class="social-icon infinite-opacity-icon" href="https://github.com/JoseLuisAriasHC" target="_blank"
-            data-aos="flip-left" data-aos-duration="500" data-aos-delay="2350" title="Github"><i
+            data-aos="flip-left" data-aos-duration="500" data-aos-delay="1300" title="Github"><i
               class="fab fa-github"></i></a>
-          <a type="button" data-bs-toggle="modal" data-bs-target="#contacModal"
-            class="social-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="500" data-aos-delay="2650"
-            title="Contacto"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-
-        <div class="modal fade" id="contacModal" tabindex="-1" aria-labelledby="contacModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <form action="https://formsubmit.co/joseluisariashc@gmail.com" method="POST">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="contacModalLabel">Contactame</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body row g-2">
-                  <div class="col-md-8">
-                    <label for="name" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
-                  </div>
-                  <div class="col-md-4">
-                    <label for="phone" class="form-label">Nº Teléfono</label>
-                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Teléfono">
-                  </div>
-                  <div class="col-12">
-                    <label for="email" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@gmail.com">
-                  </div>
-                  <div class="col-12">
-                    <label for="message" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="message" name="message" rows="5"
-                      placeholder="Escribe tu mensaje aquí"></textarea>
-                  </div>
-                  <!-- Evitar reedirecion y el captcha -->
-                  <input type="hidden" name="_next" value="https://joseluisariashc.github.io/Portfolio/index.html">
-                  <input type="hidden" name="_captcha" value="false">
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-              </form>
-            </div>
-          </div>
+          <button type="button" id="EmailBtn" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-html="true"
+            data-bs-trigger="hover" data-bs-title="joseluisariashc@gmail.com"
+            class="social-icon infinite-opacity-icon border border-0" data-aos="flip-left" data-aos-duration="500"
+            data-aos-delay="1600" title="Contacto">
+            <i class="fa-solid fa-envelope"></i>
+          </button>
         </div>
       </div>
     </section>
@@ -126,48 +92,120 @@
     <!-- Projects / Experience-->
     <section class="resume-section" id="projects">
       <div class="resume-section-content">
-        <h2 class="mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Projects / Experience</h2>
+        <h2 class="mb-5">Projects / Experience</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
           <div class="flex-grow-1">
-            <a class="link-underline-opacity-0" href="https://github.com/JoseLuisAriasHC/PreguntasMatch" target="_blank">
-              <h3 class="mb-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">PreguntasMatch</h3>
+            <a class="link-offset-2 link-underline link-underline-opacity-0"
+              href="https://joseluisariashc.github.io/Task-Manager/" target="_blank">
+              <h3 class="mb-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">Task-Manager</h3>
             </a>
-            <div class="subheading mb-3" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">Sitio Web
+            <div class="subheading mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">Sitio Web
             </div>
-            <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
-              Este es un sitio web centrado en los Tests. Sin embargo, en los tests de opiniones
-              , es decir, en aquellos en los que no hay respuestas correctas o incorrectas, sino
-              más bien opiniones que la gente tiene respecto a ciertas preguntas, algunas comunes
-              y otras no tanto, por ello la dinámica que seguiría la web sería la siguiente.
-              En un principio, habría unos tests base para las distintas categorías, de modo que
-              el usuario pueda probarlos. Posteriormente, se alimentaría de las opiniones y tests
-              que los usuarios vayan creando. Por cada test, se les mostrarían los resultados
-              globales para que tengan una vision más amplia de a que porcentaje de la gente pertenece.
+            <p>
+              Task-Manager es una aplicación web desarrollada con Angular para gestionar tareas.
+              Ofrece funcionalidades para crear, actualizar, eliminar y visualizar tareas.
+              La aplicación está diseñada para ser simple, intuitiva y responsiva, utilizando
+              Bootstrap para el diseño y FontAwesome para los iconos.
             </p>
           </div>
           <div class="flex-shrink-0">
             <div>
-              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="1000"
-                data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1200">
+                <i class="fa-brands fa-angular" title="Angular"></i>
+              </span>
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1500">
+                <img src="img/typescript.svg" alt="TypeScript" title="TypeScript">
+              </span>
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1800">
                 <i class="fa-brands fa-html5" title="Html"></i>
               </span>
-              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="1000"
-                data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
+              <a href="https://github.com/JoseLuisAriasHC/Task-Manager" target="_blank" title="perfil Githud"
+                class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="2100">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://joseluisariashc.github.io/Task-Manager/" target="_blank" title="Visitar sitio web"
+                class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="2400">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme mb-3">
+          <img src="img/project2/pagina1.png" class="glightbox" data-title="Página inicial (Bandeja de entrada)" 
+          data-description="La página web es single page por lo que esta sera la vista normal o base del sitio web.<br>
+          Se compone de un navegador vertical donde se encutra el logo del sitio web, un botón para añadir tarea, un buscador 
+          de tareas, la bandeja de entrada que será un listado de tareas, el apartado Hoy se referira a un listado de tareas con fecha de hoy, 
+          calendario, siendo un fullCalendar para visualizar de manera más global todas las tareas, un botón para crear entornos 
+          y el listado de entornos y eventos creados.">
+          <img src="img/project2/pagina2.png" class="glightbox" data-title="Añadir entorno" 
+          data-description="Un entorno es un lugar desginado donde se llevan a cabo diferentes tareas, y un evento 
+          es un tipo de tarea que se realiza de manera recurrente. <br>
+          Ahora, esta sería la vista al darle crear nuevo entorno donde en esta parte se pide solo en nombre del entorno.">
+          <img src="img/project2/pagina3.png" class="glightbox" data-title="Añadir entorno" 
+          data-description="Esta sería la segunda parte despues de darle a siguiente, donde tendriamos que poner uno o 
+          varios eventos que pueden pasar dentro de este entorno, agregandole un color representativo a dicho evento.">
+          <img src="img/project2/pagina6.png" class="glightbox" data-title="Entornos" 
+          data-description="Al hacer click a un entornolo le llevara a este apartado, donde podrá añadir más eventos, 
+          borrarlo junto con las tareas relacionadas o sin ellas o también podra borrar todo el entorno con las mismas opciones. <br>
+          Al hacer click a un evento le llevara a la bandeja de entrada con todas las tareas que tengan ese evento.">
+          <img src="img/project2/pagina7.png" class="glightbox" data-title="Añadir tarea" 
+          data-description="Este es el modal para añadir una tarea siendo un formulario solicitando la descripción de la tarea, 
+          la fecha en la que se va a realizar, la hora, la prioridad de la tarea siendo del 0 (menos importante), al 3(muy importante), 
+          y el evento al que pertenece la tarea. Para crear una tarea unicamente será obliatorio la descripción y fecha de esta.">
+          <img src="img/project2/pagina4.png" class="glightbox" data-title="Bandeja de entrada" 
+          data-description="Esta ya sería una bandeja de entrada cuando se tiene distintas tareas a lo largo de los dias.<br>
+          Tendriamos listada todas las tareas clasificandolos por dia y luego por entorno al que pertenecen. Por cada tarea 
+          se veria su descripticón, hora, evento y prioridad siendo representada por un color en el check-radio.<br>
+          Al hacer hover sobre cada tarea tendremos opciones en los que podriamos cambiar su descripción, la hora y fecha de la tarea.">
+          <img src="img/project2/pagina5.png" class="glightbox" data-title="FullCalendar" 
+          data-description="El apartado de calendario tiene un FullCalendar donde puede ver de manera más rapdia e intuitiva las 
+          tareas que tiene a lo largo del tiempo pudiendo hacer click en cualquier fecha para ver más detalles de las tareas.">
+        </div>
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+          <div class="flex-grow-1">
+            <a class="link-underline-opacity-0" href="https://github.com/JoseLuisAriasHC/PreguntasMatch"
+              target="_blank">
+              <h3 class="mb-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">PreguntasMatch</h3>
+            </a>
+            <div class="subheading mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">Sitio Web
+            </div>
+            <p>
+              Este es un sitio web centrado en los Tests de opiniones, es decir, no hay respuestas correctas o
+              incorrectas, sino más bien opiniones que la gente tiene respecto a ciertas preguntas.
+              La dinámica de la web sera la siguiente, en un principio, habría unos tests base para las
+              distintas categorías, de modo que el usuario pueda probarlos. Posteriormente, se alimentaría
+              de las opiniones y tests que los usuarios vayan creando. Por cada test, se les mostrarían los resultados
+              globales para que tengan una vision de que tan apoyada es su opinión.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <div>
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1200">
                 <i class="fa-brands fa-php" title="Php"></i>
               </span>
-              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="1000"
-                data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1500">
                 <i class="fa-brands fa-square-js" title="JavaScript"></i>
               </span>
-              <a href="https://github.com/JoseLuisAriasHC/PreguntasMatch" target="_blank"
-                class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="1000"
-                data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
+              <span class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="1800">
+                <i class="fa-brands fa-html5" title="Html"></i>
+              </span>
+              <a href="https://github.com/JoseLuisAriasHC/PreguntasMatch" target="_blank" title="perfil Githud"
+                class="item-icon infinite-opacity-icon" data-aos="flip-left" data-aos-duration="800"
+                data-aos-anchor-placement="bottom-bottom" data-aos-delay="2100">
                 <i class="fab fa-github"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class="owl-carousel owl-theme mb-3" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="800">
+        <div class="owl-carousel owl-theme mb-3">
           <img src="img/project1/E-R diagrama.PNG" class="glightbox" data-title="Diagrama Enttidad-Relacion"
             data-description="Este diagrama consta de 5 tablas principales que representan el flujo del proyecto, 
             básicamente, dicho flujo implica que el usuario realizara un test, este test estara compuesto por preguntas 
@@ -181,8 +219,7 @@
               <li>El área principal de esta página, que incluirá los botones 'Test del Día' (que redirecciona a la página web '/Test' con el test más popular) 
                 y 'Categorías' (que redirecciona a la página web '/categories' obteniendo un listado de categorías o tipos de test).</li>
             </ul>">
-          <img src="img/project1/search.png" class="glightbox" data-title="Buscador y listado de test"
-            data-description="Apartado despues de haber seleccionado una categoria de un test compuesto por: 
+          <img src="img/project1/search.png" class="glightbox" data-title="Buscador y listado de test" data-description="Apartado despues de haber seleccionado una categoria de un test compuesto por: 
             <ul>
               <li>Un buscador que puedes filtrar por nombre y ordenar por fecha y título. Contiene un botón para crear tu propio test</li>
               <li>Un listado de todos los test que cumplan el filtro. En el hover de cada test te aparecera las categorias a las que puede pertenecer y su descripción</li>
@@ -201,22 +238,22 @@
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
-            <h3 class="mb-0">Schnell Software S.L</h3>
-            <div class="subheading mb-3">Full stack developer</div>
+            <h3 class="mb-0" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">Schnell Software S.L</h3>
+            <div class="subheading mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">Full stack
+              developer</div>
             <p>
-              En esta empresa mi primera labor fue el cambio visual de ciertas paginas web con el fin
-              de que el usuario puede entender la pagina y llevar a cabo sus acciones sin necediad
-              de consultas externas. También se me pedía que lo diseñara acorde a una base de datos y con ciertos
-              estándares para que fuera fácil darle mantenimiento. <br>
-              Mi segunda labor fue realizar un método práctico para el parseo de datos, de modo que pudiera leer
+              En esta empresa mi primera labor fue el cambio visual de ciertas paginas web para hacerlos más intuitivas. 
+              También se me pedía que lo diseñara acorde a una base de datos y con ciertos
+              estándares para que fuera fácil darle mantenimiento. </p>
+            <p>Mi segunda labor fue realizar un método práctico para el parseo de datos, de modo que pudiera leer
               cierto tipo de fichero, obtener unos datos puntuales y, de acuerdo a esos datos, crear su tipo de
-              clase.<br>
-              Mi tercera labor fue más orientada al backend, donde realicé varias tareas de corrección, creación e
-              implementación, a veces simultáneamente, de funcionalidades.
-            </p>
+              clase.</p>
+            <p>Mi tercera labor fue más orientada al backend, donde realicé varias tareas de corrección, creación e
+              implementación, a veces simultáneamente, de funcionalidades.</p>
           </div>
           <div class="flex-shrink-0">
-            <span class="text-primary">Marzo 2023 - Junio 2023</span>
+            <span class="text-primary" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">3 Meses de
+              praticas</span>
           </div>
         </div>
       </div>
@@ -232,30 +269,34 @@
         <ul class="list-inline dev-icons">
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
             data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
-            <i class="fa-brands fa-java" title="Java"></i>
+            <i class="fa-brands fa-php" title="Php"></i>
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
-            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1000">
-            <i class="fa-brands fa-php" title="Php"></i>
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="900">
+            <i class="fa-brands fa-square-js" title="JavaScript"></i>
+          </li>
+          <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1100">
+              <img src="img/typescript2.svg" alt="TypeScript" title="TypeScript">
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
             data-aos-anchor-placement="bottom-bottom" data-aos-delay="1300">
             <i class="fa-brands fa-html5" title="Html"></i>
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
-            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1600">
-            <i class="fa-brands fa-square-js" title="JavaScript"></i>
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1500">
+            <i class="fa-brands fa-java" title="Java"></i>
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
-            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1900">
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1700">
             <i class="fa-brands fa-python" title="Python"></i>
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
-            data-aos-anchor-placement="bottom-bottom" data-aos-delay="2100">
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="1900">
             <i class="fa-brands fa-git-alt" title="Git"></i>
           </li>
           <li class="list-inline-item infinite-opacity-icon" href="#!" data-aos="flip-left" data-aos-duration="1000"
-            data-aos-anchor-placement="bottom-bottom" data-aos-delay="2400">
+            data-aos-anchor-placement="bottom-bottom" data-aos-delay="2100">
             <i class="fa-brands fa-android" title="Android"></i>
           </li>
         </ul>
@@ -263,7 +304,7 @@
           librerias</div>
         <ul class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600">
           <li>
-            Xataface
+            Angular
           </li>
           <li>
             Bootstrap
@@ -273,6 +314,9 @@
           </li>
           <li>
             jUnit
+          </li>
+          <li>
+            Xataface
           </li>
         </ul>
         <div class="subheading mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Conocimientos en
@@ -313,6 +357,9 @@
   <script src="js/bootstrap.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
+    // Inicializar Tooltip
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     // Inicializar el carousel
     $(document).ready(function () {
       $(".owl-carousel").owlCarousel({
@@ -345,6 +392,19 @@
     AOS.init({
       once: true,
     });
+
+    const emailBtn = document.getElementById('EmailBtn');
+    const tooltip = new bootstrap.Tooltip(emailBtn);
+    let email = 'joseluisariashc@gmail.com';
+    emailBtn.addEventListener('click', function () {
+      navigator.clipboard.writeText(email);
+      tooltip.setContent({ '.tooltip-inner': '<b>¡Copiado!</b>' });
+      tooltip.show();
+      setTimeout(() => {
+        tooltip.setContent({ '.tooltip-inner': email });
+
+      }, 2000);
+    })
   </script>
 </body>
 
